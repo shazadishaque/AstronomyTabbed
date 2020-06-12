@@ -4,7 +4,9 @@
              x:Class="Astronomy.Pages.MoonPhasePage"
              BackgroundColor="Black"
              Icon="moon.png"
-             Title="Moon Phase">
+             Title="Moon Phase"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
 
     <ContentPage.Resources>
         <ResourceDictionary>
